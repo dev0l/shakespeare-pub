@@ -1,0 +1,410 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: white;
+  background-image: url("../img/dark-wood-wallpaper.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 3vw;
+}
+h2 {
+  font-size: 2.5vw;
+}
+h3 {
+  font-size: 2vw;
+}
+h4 {
+  font-size: 1.5vw;
+}
+h5 {
+  font-size: 1.3vw;
+}
+h6 {
+  font-size: 1.0vw;
+}
+p {
+  font-size: 0.9vw;
+}
+
+/*Inner Site Wrapper*/
+
+.site-wrapper-inner {
+  width: 100%;
+  padding: 0 5%;
+  background-image: url("../img/BeerBG1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.navbar-wrapper {
+  max-width: 85%;
+  margin: 0 auto;
+  top: 0;
+  z-index: 20;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+
+.navbar-wrapper>.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+  background-color: black;
+}
+.navbar-wrapper .container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-image: url("../img/schwarzes-aufgetragen-7452363.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.navbar-inverse {
+  background-color: black;
+}
+
+/************/
+
+
+/* My rules */
+
+
+/************/
+
+#social {
+  position: fixed;
+  top: 1%;
+}
+#social img {
+  display: block;
+  max-width: 40%;
+  height: auto;
+  width: auto;
+}
+#shake-nav {
+  margin-bottom: 0px;
+}
+.dropdown-menu {
+  background-color: black;
+  color: white;
+}
+#dropdown-menu a {
+  color: #7d7d7d;
+  font-size: 15px;
+}
+#top-content {
+  margin-bottom: 5%;
+}
+
+/* TOP CONTENT
+-------------------------------------------------- */
+
+#top-content-left {
+  margin-top: 5%;
+  text-align: left;
+}
+#top-left-head {
+  max-width: 650px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#top-left-info {
+  max-width: 265px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#top-left-info h6 {
+  margin-bottom: 20px;
+}
+#top-left-info h3 {
+  margin-bottom: 20px;
+}
+#top-content-right {
+  margin-top: 5%;
+  text-align: right;
+}
+#top-right-quote {
+  float: right;
+  max-width: 600px;
+  padding: 12px;
+  margin-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#happenings {
+  float: right;
+  max-width: 350px;
+  padding: 20px;
+  margin-bottom: 200px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* *Consider FLOAT on element instead */
+
+
+/*#top-content-right h2 {
+  position: relative;
+  margin-top: 15%;
+  margin: 150px 150px 0 0;
+  float: right;                 <!-- * --->
+}*/
+
+#top-content-middle {
+  max-width: 525px;
+  height: 100%;
+  margin: 0 auto;
+}
+#header-logo {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+#header {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#temp-menu {
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+#temp-menu img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+#temp-menu-right img {
+  float: right;
+  width: 55%;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
+}
+#event-header {
+  background-size: 100% 100%;
+  padding-left: 5%;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0;
+  border: none;
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* ----------------------------------------------- */
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+  .footer {
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  .footer .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+/**********/
+
+
+/* Footer */
+
+
+/**********/
+
+.footer {
+  bottom: 0;
+  max-width: 85%;
+  height: 51px;
+  margin: 0 auto;
+  background-color: black;
+  z-index: 20;
+}
+.footer-right {
+  float: right;
+}
+
+/**********/
+
+
+/* Footer */
+
+
+/**********/
+
+.modal-header h4 {
+  font-size: 20px;
+  color: black;
+}
+.modal-body label,
+li,
+ul {
+  color: black;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/*****************/
+
+
+/* Wobble Bottom */
+
+
+/*****************/
+
+@-webkit-keyframes hvr-wobble-bottom {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes hvr-wobble-bottom {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.hvr-wobble-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+.hvr-wobble-bottom:hover,
+.hvr-wobble-bottom:focus,
+.hvr-wobble-bottom:active {
+  -webkit-animation-name: hvr-wobble-bottom;
+  animation-name: hvr-wobble-bottom;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}

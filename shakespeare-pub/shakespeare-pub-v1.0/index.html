@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<html lang="en" ng-app>-->
+<!-- NOTICE! ng-app! Change to body when/if needed! also-if-needed e.g: ng-app="myApp" -->
+
+<head>
+  <title>Shakespeare Pub</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mat, Dryck, Event, Underhållning, Utmärkt service, Bra atmosfär">
+  <meta name="author" content="dev0l">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/c00abae8a7.js"></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>-->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Social Icons
+    ================================================== -->
+  <div id="social" class="container pull-left">
+    <div class="row">
+      <div class="col-xs-2">
+        <a href="https://www.facebook.com/Shakespeare-Pub-i-H%C3%B6llviken-208373075917818/" target="_blank">
+          <img src="img/facebook-grunge-white.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/the_shakespeare_pub/?hl=sv" target="_blank">
+          <img src="img/instagram-grunge-white.png" alt="Instagram" />
+        </a>
+        <a href="mailto:info@puben.me" target="_blank">
+          <img src="img/mail-grunge-white.png" alt="Mail" />
+        </a>
+        <a href="tel:040-450486" target="_blank">
+          <img src="img/phone-classic-grunge.png" alt="Phone" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Start of Inner Site Wrapper
+    ================================================== -->
+  <div class="site-wrapper-inner container">
+    <div class="navbar-wrapper">
+      <div class="container-fluid">
+        <nav id="shake-nav" class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                  <p>Shakespeare Pub</p>
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <!--<li class="active"><a href="#">Home</a></li>-->
+                <li><a href="img/meny.pdf" target="_blank">Meny</a></li>
+                <li><a href="#event-header">Event</a></li>
+                <!--<li><a href="#kontakt">Kontakt</a></li>-->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kontakt <span class="caret"></span></a>
+                  <ul id="dropdown-menu" class="dropdown-menu">
+                    <li><a href="#" data-toggle="modal" data-target="#booking">Bokning</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#contact">Kontakta oss</a></li>
+                    <!--<li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li cl>ass="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>-->
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Top Content Container
+      ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div id="top-content" class="container-fluid">
+      <div class="row">
+        <!-- LEFT Top Content -->
+        <div id="top-content-left" class="col-xs-6 col-md-4 pull-left">
+          <div id="top-left-head">
+            <h1>Välkommen till <strong>Shakespeare Pub</strong>
+              <br> i Höllviken!</h1>
+            <!-- AVVOID <br> -->
+            <!--<h1>i Höllviken!</h1>-->
+            <!-- AVVOID <br> -->
+            <!--<ul>              
+            <li>Tis - ? kl: ??:??</li>
+            <li>Tors - ? kl: ??:??</li>
+            <li>Fre - ? kl: ??:??</li>
+          </ul>-->
+          </div>
+          <div id="top-left-info">
+            <h3>Öppettider</h3>
+            <h5>Tuseday - Thursday</h5>
+            <h6>17:00 - 23:00</h6>
+            <h5>Friday</h5>
+            <h6>16:00 - 01:00</h6>
+            <h5>Saturday</h5>
+            <h6>12:00 - 01:00</h6>
+            <h5>Sunday</h5>
+            <h6>In church praying.</h6>
+            <h5>Monday</h5>
+            <h6>Hunting and fishing.</h6>
+          </div>
+        </div>
+        <!-- MIDDLE Top Content -->
+        <div id="top-content-middle" class="col-xs-6 col-md-4">
+          <img id="header-logo" src="img/hanging-wrought-iron-sign-black.png" alt="Shakespeare Pub">
+          <hr>
+          <h1 id="header"><strong>Sidan är under uppbyggnad...</strong></h1>
+          <hr>
+        </div>
+        <!-- RIGHT Top Content -->
+        <div id="top-content-right" class="col-xs-6 col-md-4 pull-right">
+          <h2 id="top-right-quote"><em>"To beer or not to beer"</em></h2>
+          <div id="happenings">
+            <h2>Happenings</h2>
+            <h4>Fedagar:</h4>
+            <h6>AW varje Freadag med AW priser på såväl mat som dryck.</h6>
+            <h4>Lördagar:</h4>
+            <h6>Trubadurer och underhållning varje Lördag.</h6>
+          </div>
+          <!-- Temporary Menu
+      ================================================== -->
+          <div id="temp-menu" class="container-fluid">
+            <!--<div class="row">-->
+            <!--<div id="temp-menu-left" class="col-xs-6 col-md-6 pull-left">-->
+            <!--<img src="img/media_96714.jpg" alt="">-->
+            <!--</div>-->
+            <!--<div id="temp-menu-right" class="col-xs-6 col-md-6 pull-right">-->
+            <!--<img src="img/chalk/chalkboard-menu.jpg" alt="Menu">-->
+            <!--<img src="img/chalk/chalkbkgrs.jpg" alt="Menu">-->
+            <!--</div>-->
+            <!--</div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END of Inner Site Wrapper 
+    ================================================== -->
+  <!-- Marketing messaging and featurettes
+    ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  <div id="event-header" class="container-fluid marketing">
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Event <span class="text-muted">kommer snart...</span></h2>
+        <p class="lead">Mer information kommer snart...</p>
+      </div>
+      <div class="col-md-5">
+        <!--<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="img/shake-utsida.jpg" alt="Generic placeholder image">-->
+      </div>
+    </div>
+    <hr class="featurette-divider">
+  </div>
+  <!-- Start of Inner Event Wrapper
+    ================================================== -->
+  <!--<div class="event-wrapper-inner container marketing">
+
+    <div id="temp-event">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Vi hjälper dig <span class="text-muted">med att skräddarsy allt från stora till små arrangemang!</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Grand Opening Weekend! <span class="text-muted">Underhållning varje kväll. Afterwork och menyprovning.</span></h2>
+          <p class="lead">Fredag 3/2 16:00-01:00 Afterwork från 16:00 med buffé för 99:- Vi välkomnar varmt kvällens artist Andi Joseph från Australien. Andi är en sann musiker och entertainer! Mer info hittar ni på vår fan page på facebook! Lördag 4/2 12:00-01:00 Premiärlördag
+            och menyprovning. Kvällens artist: Henrik Henriksson För bordsbokningar: info@puben.me 0709-666107
+          </p>
+        </div>
+        <div class="col-md-5">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+    </div>
+
+  </div>-->
+  <!-- /.container marketing-->
+  <!-- END of Inner Event Wrapper 
+    ================================================== -->
+  <!-- Footer
+    ================================================== -->
+  <footer class="footer">
+    <div class="container-fluid">
+      <p class="footer-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2017 Shakespeare Pub &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <span class="text-muted">Sidan är under uppbyggnad...</span>
+    </div>
+  </footer>
+  <!--********-->
+  <!-- Modals -->
+  <!--********-->
+  <!-- BOKNING -->
+  <div class="modal fade" id="booking" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <form id="contact-form" action="https://formspree.io/info@puben.me" method="post">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Bokning</h4>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label>Förnamn</label>
+              <input name="förnamn" type="text" class="form-control" placeholder="Förnamn">
+            </div>
+            <div class="form-group">
+              <label>Efternamn</label>
+              <input name="efternamn" type="text" class="form-control" placeholder="Efternamn">
+            </div>
+            <div class="form-group">
+              <label>Telefonnummer</label>
+              <input name="telefon" type="tel" class="form-control" placeholder="Telefonnummer">
+            </div>
+            <div class="form-group">
+              <label>E-post</label>
+              <input name="e-post" type="email" class="form-control" placeholder="E-post">
+            </div>
+            <div class="form-group">
+              <label>Antal personer</label>
+              <input name="antal-personer" type="number" class="form-control" min="1" placeholder="Antal">
+            </div>
+            <div class="form-group">
+              <label>Tidpunkt (Datum och Klockslag AM/PM)</label>
+              <input name="tidpunkt" type="datetime-local" class="form-control" placeholder="Tidpunkt">
+            </div>
+            <div class="form-group">
+              <label>Övrig information</label>
+              <textarea name="övrigt" class="form-control" placeholder="Beskriv gärna om ni har specifika önskemål, t.ex. allergier"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Tillbaka</button>
+            <button type="submit" class="btn btn-primary">Skicka</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- KONTAKTA OSS -->
+  <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Kontakt</h4>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Adress:
+              <a href="https://www.google.se/maps/place/Shakespeare+Pub/@55.4178893,12.9512174,15z/data=!4m2!3m1!1s0x0:0x74591aaf204165ce?sa=X&ved=0ahUKEwj3xt-V28DSAhXCZCwKHZV9CiEQ_BIIdDAK"
+                target="_blank">Falsterbovägen 83, 236 51 Höllviken</a>
+            </li>
+            <li>Telefonnummer: <a href="tel:040-450486" target="_blank">040-45 04 86</a>
+            </li>
+            <li>E-post: <a href="mailto:info@puben.me" target="_blank">info@puben.me</a></li>
+            <li><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+              <a href="https://www.facebook.com/Shakespeare-Pub-i-H%C3%B6llviken-208373075917818/" target="_/blank">Facebook</a>
+            </li>
+            <li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+              <a href="https://www.instagram.com/the_shakespeare_pub/?hl=sv" target="_/blank">Instagram</a>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
